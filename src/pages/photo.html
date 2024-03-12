@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%=htmlWebpackPlugin.options.title%></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .bg-1 {
+        background-color: #1abc9c;
+        color: #ffffff;
+      }
+      .bg-2 {
+        background-color: #474e5d;
+        color: #ffffff;
+      }
+      .bg-3 {
+        background-color: #ffffff;
+        color: #555555;
+      }
+      .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+      .header-1 {
+        text-align: center;
+      }
+      .li-1 {
+        font-size: medium;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="container-fluid bg-3">
+      <h4 class="header-1">Посилання на сторінки:</h4>
+      <br />
+      <ul class="li-1">
+        <li>
+          Посилання на сторінку news:<a
+            href="news.html"
+            title="news"
+            target="_self"
+          >
+            news.html</a
+          >
+        </li>
+        <li>
+          Посилання на сторінку index:
+          <a href="index.html" title="index" target="_self"> index.html</a>
+        </li>
+        <li>
+          Посилання на сторінку rozklad:
+          <a href="rozklad.html" title="rozklad" target="_self">
+            rozklad.html</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <footer>
+      <p>
+        Copyright 2024. Всі права захищені.
+        <a href="index.html" title="index" target="_self"> Напишіть мені!</a>
+      </p>
+    </footer>
+  </body>
+</html>

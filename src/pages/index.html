@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%=htmlWebpackPlugin.options.title%></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .bg-1 {
+        background-color: #1abc9c;
+        color: #ffffff;
+      }
+      .bg-2 {
+        background-color: #474e5d;
+        color: #ffffff;
+      }
+      .bg-3 {
+        background-color: #ffffff;
+        color: #555555;
+      }
+      .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+      .header-1 {
+        text-align: center;
+      }
+      .li-1 {
+        font-size: medium;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid bg-1 text-center">
+      <h3>Прізвище Ім'я</h3>
+      <h4>Бойчук Богдан</h4>
+      <h3>Назва курсу</h3>
+      <h4>с/к Front-end технології</h4>
+    </div>
+
+    <div class="container-fluid bg-2 text-center">
+      <h4>Спеціальність: 121 Інженерія програмного забезпечення</h4>
+      <h4>Курс: 3</h4>
+      <h4>Номер групи: 6.1211-1пі</h4>
+      <h4>Номер у журналі академічної групи: 5</h4>
+    </div>
+
+    <nav class="container-fluid bg-3">
+      <h4 class="header-1">Посилання на сторінки:</h4>
+      <br />
+      <ul class="li-1">
+        <li>
+          Посилання на сторінку news:<a
+            href="news.html"
+            title="news"
+            target="_self"
+          >
+            news.html</a
+          >
+        </li>
+        <li>
+          Посилання на сторінку photo:
+          <a href="photo.html" title="photo" target="_self"> photo.html</a>
+        </li>
+        <li>
+          Посилання на сторінку rozklad:
+          <a href="rozklad.html" title="rozklad" target="_self">
+            rozklad.html</a
+          >
+        </li>
+        <li>
+          Посилання на сторінку example:
+          <a href="example.html" title="example" target="_self">
+            example.html</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <footer>
+      <p style="padding: 0px 10px">
+        Copyright 2024. Всі права захищені.
+        <a href="index.html" title="index" target="_self"> Напишіть мені!</a>
+      </p>
+    </footer>
+  </body>
+</html>
